@@ -1,0 +1,45 @@
+.Movie-card{
+  width: 288px;
+  margin-bottom: 40px;
+}
+  
+.Movie-card-data{
+  display: flex;
+  flex-direction: column;
+  background-color: #5A5A5A;
+  color: white;
+  text-align: left;
+  height: 150px;
+}
+
+.Movie-title{
+  word-wrap: break-word;
+  margin-block: 0;
+}
+
+.Movie-added-by{
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.Movie-card-data,
+.Movie-card-option{
+  padding: 5px;
+}
+
+.Movie-card-action{
+  background-color: #373737;
+  display: flex;
+  flex-direction: column;
+  color: #C1C1C1;
+  text-align: start;
+}
+
+.Movie-card-option:hover{
+  background-color: #404040;
+  cursor: pointer;
+}
+
+.Movie-card-option .Option-text{
+  margin-block: 10px;
+}

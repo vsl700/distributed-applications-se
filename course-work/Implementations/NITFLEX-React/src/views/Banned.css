@@ -1,0 +1,10 @@
+.Banned{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(243, 4, 75);
+}
+
+.Banned h1{
+    margin: auto;
+}

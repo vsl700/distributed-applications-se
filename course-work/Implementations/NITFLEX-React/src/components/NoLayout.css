@@ -1,0 +1,41 @@
+.NoLayout-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.NoLayout-container .Nitflex-form{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-inline: auto;
+}
+
+.NoLayout-container .Nitflex-form label{
+    margin-top: 15px;
+}
+
+.NoLayout-container .Nitflex-form button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    color: white;
+    background-color: #5E5E5E;
+    margin-inline: auto;
+    margin-top: 20px;
+}
+
+.NoLayout-container .Nitflex-form button:hover{
+    background-color: #999;
+}
+
+.NoLayout-container .Nitflex-form h1,
+.NoLayout-container .Nitflex-form h2,
+.NoLayout-container .Nitflex-form h3,
+.NoLayout-container .Nitflex-form h4,
+.NoLayout-container .Nitflex-form h5,
+.NoLayout-container .Nitflex-form h6{
+    margin-inline: auto;
+    margin-block: 7px;
+    width: fit-content;
+}

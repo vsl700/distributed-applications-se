@@ -1,0 +1,38 @@
+body{
+  background-color: #242424;
+}
+
+.Home {
+  text-align: center;
+}
+
+.Search-form{
+  margin-top: 50px;
+}
+
+.Search-form input[type='text']{
+  background-color: #373737;
+  color: white;
+  border: none;
+  width: 525px;
+  height: 50px;
+  font-size: 19px;
+  padding-inline: 15px;
+}
+
+.Search-form input[type='text']::placeholder{
+  color: #AAA;
+}
+
+.Search-form input[type='text']::-ms-input-placeholder{ /* Edge 12 -18 */
+  color: #AAA;
+}
+
+.Home-movies{
+  margin-top: 50px;
+  margin-inline: auto;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+}

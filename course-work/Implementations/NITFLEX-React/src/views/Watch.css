@@ -1,0 +1,28 @@
+.Watch{
+    margin-top: 50px;
+    margin-inline: auto;
+    width: fit-content;
+}
+
+.Watch .Watch-episodes{
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.Watch-episode-element{
+    display: flex;
+    color: white;
+    padding: 5px;
+}
+
+.Watch-episode-element:hover{
+    cursor: pointer;
+    background-color: #404040;
+}
+
+.Watch-episode-element .Current-element{
+    color: gray;
+    margin: 0;
+    margin-left: auto;
+    margin-right: 10px;
+}

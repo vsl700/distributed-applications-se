@@ -1,0 +1,54 @@
+.Settings-page{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Settings-page .Content{
+    width: 100%;
+    padding-inline: 40px;
+}
+
+.Settings-page .Content hr{
+    margin-inline: 0;
+}
+
+.Settings-page h1,
+.Settings-page h2{
+    margin-bottom: 10px;
+    padding-inline: 20px;
+}
+
+.Navbar-content{
+    height: 100%;
+}
+
+.Settings-page .Navbar-container{
+    position: relative;
+    height: 100%;
+    animation: none;
+}
+
+.Setting-section{
+    margin-bottom: 30px;
+}
+
+.Horizontal-setting{
+    margin-bottom: 7px;
+}
+
+.Horizontal-setting p{
+    height: fit-content;
+    margin-block: auto;
+    margin-right: auto;
+}
+
+.Horizontal-setting input,
+.Horizontal-setting select{
+    height: 35px;
+}
+
+.Horizontal-setting label{
+    height: fit-content;
+    margin-block: auto;
+}

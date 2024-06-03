@@ -1,0 +1,50 @@
+.Navbar{
+    width: 315px;
+    height: 100%;
+    background-color: #555555;
+    color: white;
+    padding-inline: 10px;
+}
+
+.Navbar-head {
+    display: flex;
+    padding-block: 10px;
+}
+
+.Navbar-head .Navbar-username{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Navbar-head .Navbar-role{
+    margin: 0;
+    color: #AFAFAF;
+}
+
+.Navbar-close-button {
+    margin-left: auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: fit-content;
+    margin-block: auto;
+    padding: 0;
+}
+
+.Navbar-option{
+    width: 100%;
+    display: flex;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.Navbar-option:hover{
+    background-color: #777777;
+}
+
+.Navbar-option-text{
+    margin: 0px;
+    margin-left: 10px;
+    padding-block: 7px;
+}
