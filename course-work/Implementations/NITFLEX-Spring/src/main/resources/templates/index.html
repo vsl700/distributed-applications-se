@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<ul th:each="movie : ${movies}">
+    <li>
+        <a th:href="@{watch/{id}(id=${movie.id})}" th:text="${movie.name}"></a>
+    </li>
+</ul>
+</body>
+</html>
